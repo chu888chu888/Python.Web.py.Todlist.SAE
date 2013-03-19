@@ -4,7 +4,6 @@ import web
 from config import settings
 from datetime import datetime
 
-print "controllers is running..."
 render = settings.render
 db = settings.db
 tb = 'todo'

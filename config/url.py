@@ -10,5 +10,7 @@ urls = (
     '/todo/(\d+)/edit',     pre_fix + 'todo.Edit',
     '/todo/(\d+)/delete',   pre_fix + 'todo.Delete',
     '/todo/(\d+)/finish',   pre_fix + 'todo.Finish',
-    '/todo/test','mycontrollers.todo.mytest'
+    '/todo/test','mycontrollers.todo.mytest',
+    '/todo/upload','mycontrollers.todo.Upload',
+    '/todo/saveupload','mycontrollers.saveupload.SaveUpload'
 )
